@@ -1,0 +1,121 @@
+/* geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: inline-block;
+    margin-top: 2%;
+    position: relative;
+}
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, #b7e3fe, #b7e3fe,#45ec66, #fada77, #fada77);
+    min-height: 100vh;
+    padding: 15px;
+    margin-top: 10%;
+}
+.pokedex{
+    margin-top: 5%;
+    display: inline-block;
+    border: solid;
+    width: 100%;
+    max-width: 425px;
+    text-align: center;
+    max-width: 400px;
+    background: #d30a40;
+    border-radius: 10px;
+    box-shadow: 5px 6px 0px rgb(165, 46, 46),7px 8px 0px;
+} 
+/* imagens */
+.img{
+    height: 40%;
+    max-width: 90%;
+    border: solid;
+    margin: 10px auto;
+    border-radius: 5%;
+
+}
+.img2{
+    position: absolute;
+    bottom: 72%;
+    left: 56%;
+    transform: translate(-61%, 0);
+    height: 15%;
+    max-width: 30%;
+    max-height: 15.5%;
+    
+}
+.simg{
+    height: 40%;
+    max-width: 90%;
+    border: solid;
+    margin: 10px auto;
+    border-radius: 5%;
+    background-color: #e3e3e3;
+    box-shadow: -2px 2px #848686, -3px 3px black;
+    border-radius: 0px 32px 0px 32px;
+}
+/* data */
+.form{
+    width: 100%;  
+}
+.srch{
+    height: 30px;
+    width: 90%;
+    border-radius: 6px;
+}
+.dataname{
+    font-weight: 600;
+    color: rgb(189, 188, 188);
+    font-size: clamp(8px,5vw,25px);
+}
+/* Botões */
+.pokeball{
+    top: 62.5%;
+    position: absolute;
+  
+    min-width: 10%;
+}
+.btns{
+    border: sol;
+    gap: 50%;
+    height: 50px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+.prev:active:active{
+    box-shadow: inset 4px 4px 0 #181818;
+}
+.next:active:active{
+    box-shadow: inset -4px 4px 0 #000000;
+}
+.prev{
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+    background: linear-gradient(45deg, #0aa5b6, #7ae9f5,#adf2fa);
+}
+.next{
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+    background: linear-gradient(310deg, #0ebdd2, #aef2fa,#c3f1f7);
+}
+/* Tabela */
+.tabela{
+    width: 95%;
+    cursor: pointer;
+    margin: 10px;
+}
+thead{
+    border: solid;
+    background-color: rgb(134, 134, 134);
+}
+table tbody tr:nth-child(even) td{
+    background-color: #929292;
+}
+table tbody tr:nth-child(odd) td {
+    background-color: #b4b2b2;
+}
